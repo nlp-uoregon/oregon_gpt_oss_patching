@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python sft.py --config configs/sft_lora.yaml

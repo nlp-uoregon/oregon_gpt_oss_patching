@@ -1,0 +1,1 @@
+accelerate launch --config_file configs/zero3.yaml sft.py --config configs/sft_full.yaml
