@@ -1,6 +1,6 @@
 # Efficient Finetuning for OpenAI GPT-OSS
 
-Finetune OpenAI's open-source GPT models **up to 2.5× faster** with our custom Triton-based flash attention kernels.  
+Finetune OpenAI's open-source GPT-OSS models ([gpt-oss-20b](https://huggingface.co/openai/gpt-oss-20b) and [gpt-oss-120b](https://huggingface.co/openai/gpt-oss-120b)) **up to 2.5× faster** with our custom Triton-based flash attention kernels.  
 Supports **long-context fully finetuning (up to 16K tokens)** — all on a **single node**.  
 
 ## Why This Matters
