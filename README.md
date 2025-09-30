@@ -5,7 +5,7 @@ Supports **long-context fully finetuning (up to 16K tokens)** — all on a **sin
 
 ## Why This Matters
 
-Current flash attention libraries don't fully support GPT-OSS because of missing backward pass support.  
+Current flash attention libraries don't fully support GPT-OSS because the backward pass is missing.
 We provide **custom Triton-based flash attention kernels** that unlock faster, memory-efficient training, and optimized for GPT-OSS:  
 
 **Key Benefits:**
