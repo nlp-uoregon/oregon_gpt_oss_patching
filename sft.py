@@ -35,8 +35,7 @@ def main(script_args, training_args, model_args):
         model_args.model_name_or_path,
     )
 
-    dataset = load_dataset(script_args.dataset_name, name=script_args.dataset_config, split='train')
-    dataset = datasets.concatenate_datasets([dataset]*15)
+    dataset = load_dataset(script_args.dataset_name, name=script_args.dataset_config)
     trainer = SFTTrainer(
         model=model,
         args=training_args,
